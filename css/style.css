@@ -69,6 +69,9 @@ body {
   color: #fff;
   margin-left: 819px;
   align-items: center;
+  &:hover {
+    background-color: #755cde;
+  }
 }
 .des {
   width: 752px;
@@ -119,7 +122,7 @@ body {
 .wrapper__title {
   width: 540px;
   height: 100px;
-
+  margin-bottom: 34px;
   font-family: Plus Jakarta Sans;
   font-size: 40px;
   font-weight: 700;
@@ -130,6 +133,7 @@ body {
   width: 540px;
   height: 84px;
   top: 134px;
+  margin-bottom: 34px;
 
   font-family: Plus Jakarta Sans;
   font-size: 18px;
@@ -144,14 +148,108 @@ body {
   line-height: 28px;
   width: 138px;
   height: 28px;
-  background-color: #030303;
+  background-color: #eb7565;
   padding: 14px 45px;
   align-items: center;
   justify-content: center;
   border-radius: 50px;
   text-decoration: none;
   color: #fff;
-  margin-left: 819px;
   align-items: center;
   margin-top: 32px;
+  &:hover {
+    background-color: #f6a560;
+  }
+}
+.hero-images {
+  margin-top: 88px;
+  align-items: center;
+  justify-content: center;
+}
+.hero-img__title {
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.32px;
+  text-align: left;
+  width: 136px;
+  height: 40px;
+  margin-left: 652px;
+  margin-bottom: 56px;
+}
+.img {
+}
+.hero-img__images {
+  display: flex;
+  gap: 30px;
+}
+.img-hero-2 {
+  width: 540px;
+  height: 360px;
+}
+.img-hero {
+  width: 540px;
+  height: 360px;
+}
+.black {
+  width: 1110px;
+  height: 320px;
+  top: 2091px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #030303;
+  margin-top: 88px;
+  margin-left: 165px;
+  border-radius: 12px;
+  display: flex;
+}
+.black-des {
+  width: 540px;
+  height: 159px;
+  top: 2172px;
+  left: 230px;
+  padding-top: 81px;
+  margin-left: 65px;
+}
+.black-title {
+  width: 540px;
+  height: 50px;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: left;
+  color: #fff;
+}
+.black-description {
+  width: 540px;
+  height: 84px;
+  top: 75px;
+  margin-top: 25px;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #fff;
+}
+.nav-link-3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 28px;
+  background-color: #eb7565;
+  padding-left: 45px;
+
+  padding-bottom: 14px;
+  padding-right: 45px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 132px;
+  margin-left: 182px;
+  &:hover {
+    background-color: #f6a560;
+  }
 }
