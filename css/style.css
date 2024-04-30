@@ -41,6 +41,7 @@ body {
   width: 1440px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 64px;
 }
 .container {
   margin-left: 165px;
@@ -69,6 +70,7 @@ body {
   color: #fff;
   margin-left: 819px;
   align-items: center;
+  margin-bottom: 12px;
   &:hover {
     background-color: #755cde;
   }
@@ -177,8 +179,7 @@ body {
   margin-left: 652px;
   margin-bottom: 56px;
 }
-.img {
-}
+
 .hero-img__images {
   display: flex;
   gap: 30px;
@@ -241,7 +242,8 @@ body {
   height: 28px;
   background-color: #eb7565;
   padding-left: 45px;
-
+  align-items: center;
+  justify-content: center;
   padding-bottom: 14px;
   padding-right: 45px;
   border-radius: 50px;
@@ -252,4 +254,16 @@ body {
   &:hover {
     background-color: #f6a560;
   }
+}
+.images-group-2 {
+}
+.images__1 {
+  display: flex;
+  gap: 25px;
+}
+.images__2 {
+  margin-top: 24px;
+}
+.images-group__2 {
+  margin-top: 24px;
 }
